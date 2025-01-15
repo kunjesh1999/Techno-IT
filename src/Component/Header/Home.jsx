@@ -1,6 +1,7 @@
 import React from 'react'
 import { IoLogoLinkedin } from "react-icons/io5";
 import { FaTwitter, FaInstagram, FaFacebook } from "react-icons/fa";
+import { FaRegCircleCheck } from "react-icons/fa6";
 import servicedesign from '../../../src/img/servicedesign.png';
 import servicehosting from '../../../src/img/servicehosting.svg'
 import servicesocial from '../../../src/img/servicesocial.svg'
@@ -137,21 +138,205 @@ const Home = () => {
               <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div className="row">
-             <div className="left-block">
-              <div className="left-block-main">
-                
+              {/* start left */}
+              <div className="left-block">
+                {/* Experience */}
+                <div className="left-block-main">
+                  <div className="description">
+                    <h4>Experience</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div className="icon1">
+                    <img src="/img/icon-1.jpg" alt="" />
+                  </div>
+                </div>
+                {/* Products */}
+                <div className="left-block-main">
+                  <div className="description">
+                    <h4>Products</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div className="icon1">
+                    <img src="/img/icon-2.jpg" alt="" />
+                  </div>
+                </div>
+                {/* Approach */}
+                <div className="left-block-main">
+                  <div className="description">
+                    <h4>Approach</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                  <div className="icon1">
+                    <img src="/img/icon-3.jpg" alt="" />
+                  </div>
+                </div>
+
+
               </div>
-             </div>
+
+              {/* start center */}
+              <div className="left-block">
+                {/* <div className="center"> */}
+                <div className="features">
+                  <img src="/img/features.jpg" alt="" />
+                </div>
+                {/* </div> */}
+              </div>
+              {/* end center */}
+              {/* start right */}
+              {/* Approach */}
+              <div className="left-block">
+                <div className="right-block-main">
+                  <div className="icon-right">
+                    <img src="/img/icon-4.jpg" alt="" />
+                  </div>
+                  <div className="description-right">
+                    <h4>Approach</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+
+                {/* Delivery */}
+                <div className="right-block-main">
+                  <div className="icon-right">
+                    <img src="/img/icon-5.jpg" alt="" />
+                  </div>
+                  <div className="description-right">
+                    <h4>Delivery</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+
+                <div className="right-block-main">
+                  <div className="icon-right">
+                    <img src="/img/icon-6.jpg" alt="" />
+                  </div>
+                  <div className="description-right">
+                    <h4>Support</h4>
+                    <p>Ronsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
+        {/* Our Portfolio */}
+        <div className="section">
+          <div className="container">
+            <div className="section-header">
+              <h2>Our Portfolio</h2>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div className="portfolio-main-block">
+              <div className='portfolio'>
+                <ul>
+                  <li>All</li>
+                  <li>App Design</li>
+                  <li>App Development</li>
+                  <li>Branding</li>
+                  <li>It Solutions</li>
+                </ul>
+              </div>
 
+              <div className="portfolio-block">
+                <div className="portfolio-block-inner">
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
 
+                        <img src="/img/product-1.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
+
+                        <img src="/img/product-2.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
+
+                        <img src="/img/product-3.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
+
+                        <img src="/img/product-4.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
+
+                        <img src="/img/product-5.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                  <div className="portfolio-item">
+                    <div className="portfolio-img">
+                      <div className="img-box">
+
+                        <img src="/img/product-6.jpg" alt="" />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        {/* End Our Portfolio */}
+
+        <div className="section">
+          <div className="container">
+            <div className="section-header">
+              <h2>Pricing Plans</h2>
+              <p>Lorem ipsum dolor sit amet</p>
+            </div>
+            <div className="Pricing-block-inner">
+              <div className="Pricing-item">
+                <div className="Pricing-block">
+                  <div className="title">
+                    <h2>Basic</h2>
+                  </div>
+                  <div className="price">
+                    <h4><sup>$</sup>25</h4>
+                  </div>
+                  <div className="option">
+                    <ul>
+                       <li><FaRegCircleCheck  className='check'/> Unlimited GB Space</li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-
     </div>
   )
 }
-
 export default Home
+
+
+
+
+
+
+
+
+
+
+
+
+
+
