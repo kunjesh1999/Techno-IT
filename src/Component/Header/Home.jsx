@@ -239,58 +239,59 @@ const Home = () => {
                 </ul>
               </div>
 
-              <div className="portfolio-block">
-                <div className="portfolio-block-inner">
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+              {/* <div className="portfolio-block"> */}
+              <div className="portfolio-block-inner">
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-1.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-1.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+                </div>
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-2.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-2.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+                </div>
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-3.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-3.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+                </div>
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-4.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-4.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+                </div>
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-5.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-5.jpg" alt="" />
                     </div>
                   </div>
-                  <div className="portfolio-item">
-                    <div className="portfolio-img">
-                      <div className="img-box">
+                </div>
+                <div className="portfolio-item">
+                  <div className="portfolio-img">
+                    <div className="img-box">
 
-                        <img src="/img/product-6.jpg" alt="" />
-                      </div>
+                      <img src="/img/product-6.jpg" alt="" />
                     </div>
                   </div>
                 </div>
               </div>
+              {/* </div> */}
+
             </div>
           </div>
         </div>
@@ -303,6 +304,7 @@ const Home = () => {
               <p>Lorem ipsum dolor sit amet</p>
             </div>
             <div className="Pricing-block-inner">
+              {/* basicblock1  start*/}
               <div className="Pricing-item">
                 <div className="Pricing-block">
                   <div className="title">
@@ -313,11 +315,85 @@ const Home = () => {
                   </div>
                   <div className="option">
                     <ul>
-                       <li><FaRegCircleCheck  className='check'/> Unlimited GB Space</li>
+                      <li><FaRegCircleCheck className='check' /> Unlimited GB Space</li>
+                      <li><FaRegCircleCheck className='check' />  30 Domain Names</li>
+                      <li><FaRegCircleCheck className='check' />   Free SSL</li>
+                      <li><FaRegCircleCheck className='check' />   Daily Backup</li>
+                      <li><FaRegCircleCheck className='check' />   Free Templates</li>
+                      <li><FaRegCircleCheck className='check' />   Free Email</li>
+                      <li><FaRegCircleCheck className='check' />   10 Databases</li>
+                      <li><FaRegCircleCheck className='check' />   Unlimited Email Address</li>
+                      <li><FaRegCircleCheck className='check' />   Live Support</li>
                     </ul>
+                    <button type='button' className='Order'>Order Now</button>
                   </div>
                 </div>
               </div>
+              {/* basicblock  End*/}
+              {/* basicblock2  start*/}
+              <div className="Pricing-item">
+                <div className="Pricing-block">
+                  <div className="title">
+                    <h2>Basic</h2>
+                  </div>
+                  <div className="price">
+                    <h4><sup>$</sup>25</h4>
+                  </div>
+                  <div className="option">
+                    <ul>
+                      <li><FaRegCircleCheck className='check' /> Unlimited GB Space</li>
+                      <li><FaRegCircleCheck className='check' />  30 Domain Names</li>
+                      <li><FaRegCircleCheck className='check' />   Free SSL</li>
+                      <li><FaRegCircleCheck className='check' />   Daily Backup</li>
+                      <li><FaRegCircleCheck className='check' />   Free Templates</li>
+                      <li><FaRegCircleCheck className='check' />   Free Email</li>
+                      <li><FaRegCircleCheck className='check' />   10 Databases</li>
+                      <li><FaRegCircleCheck className='check' />   Unlimited Email Address</li>
+                      <li><FaRegCircleCheck className='check' />   Live Support</li>
+                    </ul>
+                    <button type='button' className='Order'>Order Now</button>
+                  </div>
+                </div>
+              </div>
+              {/* basicblock2  end*/}
+              {/* basicblock3  start*/}
+              <div className="Pricing-item">
+                <div className="Pricing-block">
+                  <div className="title">
+                    <h2>Basic</h2>
+                  </div>
+                  <div className="price">
+                    <h4><sup>$</sup>25</h4>
+                  </div>
+                  <div className="option">
+                    <ul>
+                      <li><FaRegCircleCheck className='check' /> Unlimited GB Space</li>
+                      <li><FaRegCircleCheck className='check' />  30 Domain Names</li>
+                      <li><FaRegCircleCheck className='check' />   Free SSL</li>
+                      <li><FaRegCircleCheck className='check' />   Daily Backup</li>
+                      <li><FaRegCircleCheck className='check' />   Free Templates</li>
+                      <li><FaRegCircleCheck className='check' />   Free Email</li>
+                      <li><FaRegCircleCheck className='check' />   10 Databases</li>
+                      <li><FaRegCircleCheck className='check' />   Unlimited Email Address</li>
+                      <li><FaRegCircleCheck className='check' />   Live Support</li>
+                    </ul>
+                    <div>
+                      <button type='button' className='Order'>Order Now</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/* basicblock3  end*/}
+
+            </div>
+          </div>
+        </div>
+
+        <div  className="section">
+          <div className="container">
+            <div className="section-header">
+              <h2>Testimonials</h2>
+              <p>Lorem ipsum dolor sit amet</p>
             </div>
           </div>
         </div>
