@@ -1,7 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200..1000&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');      
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Poppins", serif;
+    /* scroll-behavior: smooth; */
 }
 
 .Header_main {
@@ -58,7 +61,7 @@ li {
 
 a {
     text-decoration: none;
-    color: rgba(4, 224, 4, 0.808);
+    color: rgba(65, 73, 229, 0.808);
     font-weight: 700;
 }
 
@@ -67,17 +70,20 @@ a {
     width: 100%;
     font-size: 15px;
     letter-spacing: 1px;
-    display: inline-block;
+    display: block ruby;
     padding: 14px 18px;
     border-radius: 50px;
     transition: 0.3s;
     color: white;
     background: #0763de;
 }
+/* .GetQuotes>a{
+    display: block;
+} */
 
 .icon {
     background-color: #e9e9ed;
-    padding: 10px 14px;
+    padding: 11px 17px;
     border-radius: 50%;
     font-size: 19px;
 }
@@ -101,8 +107,9 @@ a {
 }
 
 .block-inner img {
+    min-height: 100%;
     width: 100%;
-    min-height: 100vh;
+    /* min-height: 100vh; */
     position: relative;
     /* z-index: -1; */
 
@@ -110,30 +117,33 @@ a {
 
 .block-text {
     display: block;
-    max-width: 900px;
-    /* text-align: center; */
-    max-width: 900px;
     position: absolute;
     top: 0;
+    right: 0;
+    left: 0;
+    justify-content: center;
+    margin: 0 auto;
+    transform: translate(0, 30%);
+    text-align: center;
 
-    /* align-items: center; */
-    width: 100%;
-    /* justify-content: center; */
-    z-index: 1;
 }
 
 .block-text h1 {
-
+    font-family: "Poppins", serif;
+    color: white;
     font-size: 63px;
     font-weight: 600;
 
 }
 
 .block-text h1 span {
+    display: block;
     color: #0159dd;
 }
 
 .block-text p {
+    font-family: "Poppins", serif;
+    color: white;
     max-width: 605px;
     margin: 10px auto 20px;
     line-height: 1.4;
@@ -224,6 +234,7 @@ a {
 
 .section .services-inner .services-item:hover {
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    
 }
 
 .section .services-inner .services-item .icon-box {
@@ -239,7 +250,7 @@ a {
     color: #025add;
     cursor: pointer;
     /* box-shadow: -1px 5px 20px 0px var(--box-shadow-color); */
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
 }
 
 .section .services-inner .services-item .icon-box .icon {
@@ -482,12 +493,12 @@ a {
 
 .Pricing-item {
     display: block;
-	width: 32%;
-	margin-top: 25px;
-	padding: 0 12px;
-	background-color: rgb(233, 178, 178);
-	overflow: hidden;
-	margin: 0 auto;
+    width: 32%;
+    margin-top: 25px;
+    padding: 0 12px;
+    background-color: rgba(175, 164, 164, 0.46);
+    overflow: hidden;
+    margin: 0 auto;
     border-radius: 7px;
     margin-bottom: 20px;
 }
@@ -523,7 +534,7 @@ sup {
     position: relative;
     font-size: .75em;
     line-height: 0;
-   
+
 }
 
 .Pricing-block ul>li {
@@ -537,22 +548,24 @@ sup {
     font-size: 16px;
 
 }
-.check{
+
+.check {
     margin-right: 5px;
 }
+
 .Order {
-	cursor: pointer;
-	
-	font-size: 18px;
-	font-weight: 500;
-	line-height: 1;
-	transition: all 0.3s ease-in-out;
-	padding: 15px 25px;
-	border-radius: 30px;
-	margin-bottom: 20px;
-	display: block;
-	color:white;
-	border: 0;
-	margin: 20px auto 0;
-	background: linear-gradient(45deg, #0c6de0, #025add);
+    cursor: pointer;
+
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1;
+    transition: all 0.3s ease-in-out;
+    padding: 15px 25px;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    display: block;
+    color: white;
+    border: 0;
+    margin: 20px auto 0;
+    background: linear-gradient(45deg, #0c6de0, #025add);
 }

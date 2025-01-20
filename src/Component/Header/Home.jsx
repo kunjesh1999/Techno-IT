@@ -334,10 +334,10 @@ const Home = () => {
               <div className="Pricing-item">
                 <div className="Pricing-block">
                   <div className="title">
-                    <h2>Basic</h2>
+                    <h2>Standard</h2>
                   </div>
                   <div className="price">
-                    <h4><sup>$</sup>25</h4>
+                    <h4><sup>$</sup>50</h4>
                   </div>
                   <div className="option">
                     <ul>
@@ -360,10 +360,10 @@ const Home = () => {
               <div className="Pricing-item">
                 <div className="Pricing-block">
                   <div className="title">
-                    <h2>Basic</h2>
+                    <h2>Premium</h2>
                   </div>
                   <div className="price">
-                    <h4><sup>$</sup>25</h4>
+                    <h4><sup>$</sup>100</h4>
                   </div>
                   <div className="option">
                     <ul>
